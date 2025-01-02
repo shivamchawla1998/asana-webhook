@@ -1,0 +1,30 @@
+{
+  "name": "asana-whatsapp-integration",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "ts-node": "^10.9.2",
+    "asana": "^3.0.12",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/asana": "^0.18.16",
+    "nodemon": "^3.1.9"
+  }
+}
